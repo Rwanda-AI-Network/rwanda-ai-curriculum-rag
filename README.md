@@ -34,8 +34,8 @@ This makes it easier for learners to explore educational materials intelligently
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/RwandaAI/ai-service.git
-   cd ai-service
+   git clone https://github.com/RwandaAI/rwanda-ai-curriculum-rag.git
+   cd rwanda-ai-curriculum-rag
    ```
 
 2. Set up a virtual environment using uv:
@@ -125,10 +125,13 @@ rwanda-ai-curriculum-rag/
 │
 ├── .env.example                  # Template (no secrets, safe for repo)
 ├── .gitignore                    # Ensure `.env` is ignored
-├── requirements.txt
 ├── Dockerfile
+├── LICENSE
+├── pyproject.toml
+├── README.md
 ├── docker-compose.yml            # For local orchestration (optional)
 └── README.md
+
 
 ```
 
