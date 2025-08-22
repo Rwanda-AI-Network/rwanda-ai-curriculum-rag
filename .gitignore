@@ -1,0 +1,67 @@
+# ===========================
+# Python
+# ===========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+pip-wheel-metadata/
+
+# ===========================
+# Virtual Environments
+# ===========================
+.venv/
+venv/
+env/
+.uv/
+.uv-env/
+
+# ===========================
+# Environment & Secrets
+# ===========================
+*.env
+*.env.*
+app/config/.env_files/.env
+app/config/.env_files/.env.*
+!.env.example   # keep template for contributors
+
+# ===========================
+# Logs & Debugging
+# ===========================
+*.log
+*.out
+*.err
+logs/
+debug.log
+
+# ===========================
+# IDE & Editor Settings
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ===========================
+# OS Specific
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Coverage & Testing
+# ===========================
+.coverage
+.coverage.*
+.cache/
+pytest_cache/
+htmlcov/
+.tox/
+.mypy_cache/
+.pytest_cache/
